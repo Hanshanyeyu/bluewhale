@@ -1,0 +1,1046 @@
+{
+  "gets": [
+  {
+    "id": "menus",
+    "data": [
+    {
+      "name": "main",
+      "label": "\u7efc\u5408\u4fe1\u606f",
+      "routerName": "main"
+    },
+    {
+      "name": "userInfo",
+      "label": "\u4e2a\u4eba\u4fe1\u606f",
+      "routerName": "userInfo"
+    },
+    {
+      "name": "orderClass",
+      "label": "\u62a5\u8bfe\u60c5\u51b5",
+      "routerName": "orderClass",
+      "children": [
+      {
+        "name": "orderClass",
+        "label": "报课数据",
+        "routerName": "orderClass"
+      },
+      {
+        "name": "orderInfo",
+        "label": "订单明细",
+        "routerName": "orderInfo"
+      },
+      {
+        "name": "timetableInfo",
+        "label": "课程明细",
+        "routerName": "timetableInfo"
+      },
+      {
+        "name": "continueInfo",
+        "label": "续报明细",
+        "routerName": "continueInfo"
+      }]
+    },
+    {
+      "name": "goToClass",
+      "label": "\u4e0a\u8bfe\u60c5\u51b5",
+      "routerName": "goToClass"
+    },
+    {
+      "name": "service",
+      "label": "\u670d\u52a1\u63a5\u89e6",
+      "routerName": "service",
+      "children": [
+      {
+        "name": "service",
+        "label": "通话访谈详情",
+        "routerName":"service"
+      },
+      {
+        "name": "callInfo",
+        "label": "通话详情",
+        "routerName":"callInfo"
+      },
+      {
+        "name": "talkInfo",
+        "label": "访谈详情",
+        "routerName":"talkInfo"
+      }]
+    },
+    {
+      "name": "IM",
+      "label": "IM\u60c5\u51b5",
+      "routerName": "IM"
+    }]
+  },
+  {
+    "id": "mainPage",
+    "data": [
+    {
+      "name": "main",
+      "label": "一期",
+      "routerName": "user",
+      "routerPath": "/index/main",
+      "children": [
+      {
+        "name": "main",
+        "label": "主页",
+        "routerName": "main"
+      },
+      {
+        "name": "user",
+        "label": "个人信息",
+        "routerName": "userInfo"
+      },
+      {
+        "name": "orderClass",
+        "label": "报课情况",
+        "routerName": "orderClass",
+        "children": [
+        {
+          "name": "orderInfo",
+          "label": "订单明细"
+        }]
+      },
+      {
+        "name": "goToClass",
+        "label": "上课情况",
+        "routerName": "goToClass",
+        "children": [
+        {
+          "name": "classInfo",
+          "label": "课程详情"
+        }]
+      },
+      {
+        "name": "service",
+        "label": "服务接触",
+        "routerName": "service",
+        "children": [
+        {
+          "name": "callInfo",
+          "label": "通话详情"
+        },
+        {
+          "name": "talkInfo",
+          "label": "访谈详情"
+        },
+        {
+          "name": "touchInfo",
+          "label": "接触详情"
+        }
+        ]
+      },
+      {
+        "name": "IM",
+        "label": "IM情况",
+        "routerName": "IM"
+      }]
+    }]
+  },
+  {
+    "id": "orderInfo",
+    "data":
+    {
+      "config": [
+      {
+        "label": "时间",
+        "name": "date"
+      },
+      {
+        "label": "课程名",
+        "name": "className"
+      },
+      {
+        "label": "课程ID",
+        "name": "classId"
+      },
+      {
+        "label": "课程类型",
+        "name": "classType"
+      },
+      {
+        "label": "售价",
+        "name": "price"
+      },
+      {
+        "label": "优惠金额",
+        "name": "sale"
+      },
+      {
+        "label": "期数",
+        "name": "page"
+      },
+      {
+        "label": "主讲老师",
+        "name": "teacher"
+      },
+      {
+        "label": "老师ID",
+        "name": "teacherId"
+      },
+      {
+        "label": "班主任",
+        "name": "mainTeacher"
+      },
+      {
+        "label": "班主任ID",
+        "name": "mainTeacherId"
+      },
+      {
+        "label": "课程状态",
+        "name": "classStatus"
+      },
+      {
+        "label": "订单状态",
+        "name": "orderStatus"
+      },
+      {
+        "label": "是否有教材",
+        "name": "hasBook"
+      },
+      {
+        "label": "教材寄送情况",
+        "name": "bookStatus"
+      },
+      {
+        "label": "订单更新时间",
+        "name": "orderUpdateTime"
+      },
+      {
+        "label": "订单生成时间",
+        "name": "orderCreateTime"
+      },
+      {
+        "label": "购买方式",
+        "name": "orderType"
+      }],
+      "list": [
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      },
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      }]
+    }
+  },
+  {
+    "id": "callInfo",
+    "data":
+    {
+      "config": [
+      {
+        "label": "时间",
+        "name": "date"
+      },
+      {
+        "label": "课程名",
+        "name": "className"
+      },
+      {
+        "label": "课程ID",
+        "name": "classId"
+      },
+      {
+        "label": "课程类型",
+        "name": "classType"
+      },
+      {
+        "label": "售价",
+        "name": "price"
+      },
+      {
+        "label": "优惠金额",
+        "name": "sale"
+      },
+      {
+        "label": "期数",
+        "name": "page"
+      },
+      {
+        "label": "主讲老师",
+        "name": "teacher"
+      },
+      {
+        "label": "老师ID",
+        "name": "teacherId"
+      },
+      {
+        "label": "班主任",
+        "name": "mainTeacher"
+      },
+      {
+        "label": "班主任ID",
+        "name": "mainTeacherId"
+      },
+      {
+        "label": "课程状态",
+        "name": "classStatus"
+      },
+      {
+        "label": "订单状态",
+        "name": "orderStatus"
+      },
+      {
+        "label": "是否有教材",
+        "name": "hasBook"
+      },
+      {
+        "label": "教材寄送情况",
+        "name": "bookStatus"
+      },
+      {
+        "label": "订单更新时间",
+        "name": "orderUpdateTime"
+      },
+      {
+        "label": "订单生成时间",
+        "name": "orderCreateTime"
+      },
+      {
+        "label": "购买方式",
+        "name": "orderType"
+      }],
+      "list": [
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      },
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      }]
+    }
+  },
+  {
+    "id": "talkInfo",
+    "data":
+    {
+      "config": [
+      {
+        "label": "时间",
+        "name": "date"
+      },
+      {
+        "label": "课程名",
+        "name": "className"
+      },
+      {
+        "label": "课程ID",
+        "name": "classId"
+      },
+      {
+        "label": "课程类型",
+        "name": "classType"
+      },
+      {
+        "label": "售价",
+        "name": "price"
+      },
+      {
+        "label": "优惠金额",
+        "name": "sale"
+      },
+      {
+        "label": "期数",
+        "name": "page"
+      },
+      {
+        "label": "主讲老师",
+        "name": "teacher"
+      },
+      {
+        "label": "老师ID",
+        "name": "teacherId"
+      },
+      {
+        "label": "班主任",
+        "name": "mainTeacher"
+      },
+      {
+        "label": "班主任ID",
+        "name": "mainTeacherId"
+      },
+      {
+        "label": "课程状态",
+        "name": "classStatus"
+      },
+      {
+        "label": "订单状态",
+        "name": "orderStatus"
+      },
+      {
+        "label": "是否有教材",
+        "name": "hasBook"
+      },
+      {
+        "label": "教材寄送情况",
+        "name": "bookStatus"
+      },
+      {
+        "label": "订单更新时间",
+        "name": "orderUpdateTime"
+      },
+      {
+        "label": "订单生成时间",
+        "name": "orderCreateTime"
+      },
+      {
+        "label": "购买方式",
+        "name": "orderType"
+      }],
+      "list": [
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      },
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      }]
+    }
+  },
+  {
+    "id": "touchInfo",
+    "data":
+    {
+      "config": [
+      {
+        "label": "时间",
+        "name": "date"
+      },
+      {
+        "label": "课程名",
+        "name": "className"
+      },
+      {
+        "label": "课程ID",
+        "name": "classId"
+      },
+      {
+        "label": "课程类型",
+        "name": "classType"
+      },
+      {
+        "label": "售价",
+        "name": "price"
+      },
+      {
+        "label": "优惠金额",
+        "name": "sale"
+      },
+      {
+        "label": "期数",
+        "name": "page"
+      },
+      {
+        "label": "主讲老师",
+        "name": "teacher"
+      },
+      {
+        "label": "老师ID",
+        "name": "teacherId"
+      },
+      {
+        "label": "班主任",
+        "name": "mainTeacher"
+      },
+      {
+        "label": "班主任ID",
+        "name": "mainTeacherId"
+      },
+      {
+        "label": "课程状态",
+        "name": "classStatus"
+      },
+      {
+        "label": "订单状态",
+        "name": "orderStatus"
+      },
+      {
+        "label": "是否有教材",
+        "name": "hasBook"
+      },
+      {
+        "label": "教材寄送情况",
+        "name": "bookStatus"
+      },
+      {
+        "label": "订单更新时间",
+        "name": "orderUpdateTime"
+      },
+      {
+        "label": "订单生成时间",
+        "name": "orderCreateTime"
+      },
+      {
+        "label": "购买方式",
+        "name": "orderType"
+      }],
+      "list": [
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      },
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      }]
+    }
+  },
+  {
+    "id": "orderList",
+    "data":
+    {
+      "config": [
+      {
+        "label": "时间",
+        "name": "date"
+      },
+      {
+        "label": "课程名",
+        "name": "className"
+      },
+      {
+        "label": "课程ID",
+        "name": "classId"
+      },
+      {
+        "label": "课程类型",
+        "name": "classType"
+      },
+      {
+        "label": "售价",
+        "name": "price"
+      },
+      {
+        "label": "优惠金额",
+        "name": "sale"
+      },
+      {
+        "label": "期数",
+        "name": "page"
+      },
+      {
+        "label": "主讲老师",
+        "name": "teacher"
+      },
+      {
+        "label": "老师ID",
+        "name": "teacherId"
+      },
+      {
+        "label": "班主任",
+        "name": "mainTeacher"
+      },
+      {
+        "label": "班主任ID",
+        "name": "mainTeacherId"
+      },
+      {
+        "label": "课程状态",
+        "name": "classStatus"
+      },
+      {
+        "label": "订单状态",
+        "name": "orderStatus"
+      },
+      {
+        "label": "是否有教材",
+        "name": "hasBook"
+      },
+      {
+        "label": "教材寄送情况",
+        "name": "bookStatus"
+      },
+      {
+        "label": "订单更新时间",
+        "name": "orderUpdateTime"
+      },
+      {
+        "label": "订单生成时间",
+        "name": "orderCreateTime"
+      },
+      {
+        "label": "购买方式",
+        "name": "orderType"
+      }],
+      "list": [
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      },
+      {
+        "date": "69952",
+        "className": "51",
+        "classId": "2100028390",
+        "classType": "138****6110",
+        "price": "138****6110",
+        "sale": "销售呼出",
+        "page": "51",
+        "teacher": "2100028390",
+        "teacherId": "138****6110",
+        "mainTeacher": "69952",
+        "mainTeacherId": "51",
+        "classStatus": "2100028390",
+        "orderStatus": "138****6110",
+        "hasBook": "138****6110",
+        "bookStatus": "销售呼出",
+        "orderUpdateTime": "2017-08-02 17:55:41",
+        "orderCreateTime": "初始化",
+        "orderType": "--"
+      }]
+    }
+  },
+  {
+    "id": "orderClass",
+    "data":
+    {
+      "errno": 0,
+      "data":
+      {
+        "orderId": "111",
+        "paymentSum": 200,
+        "couponSum": 0,
+        "courseSum": 3,
+        "classCourseSum": 0,
+        "firstCourseTime": 1500970200,
+        "firstClassCourseTime": null
+      }
+    }
+  },
+  {
+    "id": "userInfo",
+    "data":
+    {
+      "errno": 0,
+      "data":
+      {
+        "regTime": 1500775513,
+        "uid": 2233372589,
+        "number": null,
+        "nickname": "yuutiann",
+        "avatar": "http://imgsrc.baidu.com/imgad/pic/item/267f9e2f07082838b5168c32b299a9014c08f1f9.jpg",
+        "name": "yuutiann",
+        "sex": 0,
+        "birthday": null,
+        "area": "",
+        "school": null,
+        "entryYear": 2014,
+        "grade": 7,
+        "class": null,
+        "regPhone": "18368918280",
+        "phone": "18368918280",
+        "qq": null,
+        "webchat": "",
+        "address": "",
+        "guardianA": "",
+        "guardianAPhone": "",
+        "guardianAWebchat": "",
+        "guardianB": "",
+        "guardianBPhone": "",
+        "guardianBWebchat": ""
+      }
+    }
+  },
+  {
+    "id": "goToClass",
+    "data":
+    {
+      "config": [
+      {
+        "label": "课程名称",
+        "name": "courseName"
+      },
+      {
+        "label": "课程id",
+        "name": "courseId"
+      },
+      {
+        "label": "课程类型",
+        "name": "type"
+      },
+      {
+        "label": "章节数量",
+        "name": "'lessonNum'"
+      },
+      {
+        "label": "已上章节数量",
+        "name": "hasLessonNum"
+      },
+      {
+        "label": "可看回放数量",
+        "name": "havePlayBackNum"
+      },
+      {
+        "label": "可看直播数量",
+        "name": "hasLiveNum"
+      },
+      {
+        "label": "5分钟到课次数",
+        "name": "attendNum"
+      }],
+      "list": [
+      {
+        "courseName": "69952",
+        "courseId": "51",
+        "type": "2100028390",
+        "lessonNum": "138****6110",
+        "hasLessonNum": "138****6110",
+        "havePlayBackNum": "销售呼出",
+        "hasLiveNum": "51",
+        "attendNum": "2100028390"
+      }]
+    }
+  },
+  {
+    "id": "service",
+    "data":
+    {
+      "errno": 0,
+      "data":
+      {
+        "touchInfo":
+        {},
+        "classInfo":
+        {
+          "config": [
+          {
+            "label": "已上章节数量",
+            "name": "hasLessonNum"
+          },
+          {
+            "label": "可看回放数量",
+            "name": "havePlayBackNum"
+          },
+          {
+            "label": "可看直播数量",
+            "name": "hasLiveNum"
+          },
+          {
+            "label": "5分钟到课次数",
+            "name": "attendNum"
+          }],
+          "list": [
+          {
+            "hasLessonNum": "138****6110",
+            "havePlayBackNum": "销售呼出",
+            "hasLiveNum": "51",
+            "attendNum": "2100028390"
+          }]
+        }
+      }
+    }
+  },
+  {
+    "id": "classInfo",
+    "data":
+    {
+      "errno": 0,
+      "data":
+      {
+        "lesson":
+        {
+          "config": [
+          {
+            "label": "课程名称",
+            "name": "courseName"
+          },
+          {
+            "label": "课程id",
+            "name": "courseId"
+          },
+          {
+            "label": "课程类型",
+            "name": "type"
+          },
+          {
+            "label": "章节数量",
+            "name": "'lessonNum'"
+          },
+          {
+            "label": "已上章节数量",
+            "name": "hasLessonNum"
+          },
+          {
+            "label": "可看回放数量",
+            "name": "havePlayBackNum"
+          },
+          {
+            "label": "可看直播数量",
+            "name": "hasLiveNum"
+          },
+          {
+            "label": "5分钟到课次数",
+            "name": "attendNum"
+          }],
+          "list": [
+          {
+            "courseName": "69952",
+            "courseId": "51",
+            "type": "2100028390",
+            "lessonNum": "138****6110",
+            "hasLessonNum": "138****6110",
+            "havePlayBackNum": "销售呼出",
+            "hasLiveNum": "51",
+            "attendNum": "2100028390"
+          }]
+        },
+        "Mentoring":
+        {
+          "config": [
+          {
+            "label": "课程名称",
+            "name": "courseName"
+          },
+          {
+            "label": "课程id",
+            "name": "courseId"
+          },
+          {
+            "label": "课程类型",
+            "name": "type"
+          },
+          {
+            "label": "章节数量",
+            "name": "'lessonNum'"
+          },
+          {
+            "label": "已上章节数量",
+            "name": "hasLessonNum"
+          },
+          {
+            "label": "可看回放数量",
+            "name": "havePlayBackNum"
+          },
+          {
+            "label": "可看直播数量",
+            "name": "hasLiveNum"
+          },
+          {
+            "label": "5分钟到课次数",
+            "name": "attendNum"
+          }],
+          "list": [
+          {
+            "courseName": "69952",
+            "courseId": "51",
+            "type": "2100028390",
+            "lessonNum": "138****6110",
+            "hasLessonNum": "138****6110",
+            "havePlayBackNum": "销售呼出",
+            "hasLiveNum": "51",
+            "attendNum": "2100028390"
+          }]
+        },
+        "score":
+        {
+          "config": [
+          {
+            "label": "课程名称",
+            "name": "courseName"
+          },
+          {
+            "label": "课程id",
+            "name": "courseId"
+          },
+          {
+            "label": "课程类型",
+            "name": "type"
+          },
+          {
+            "label": "章节数量",
+            "name": "'lessonNum'"
+          },
+          {
+            "label": "已上章节数量",
+            "name": "hasLessonNum"
+          },
+          {
+            "label": "可看回放数量",
+            "name": "havePlayBackNum"
+          },
+          {
+            "label": "可看直播数量",
+            "name": "hasLiveNum"
+          },
+          {
+            "label": "5分钟到课次数",
+            "name": "attendNum"
+          }],
+          "list": [
+          {
+            "courseName": "69952",
+            "courseId": "51",
+            "type": "2100028390",
+            "lessonNum": "138****6110",
+            "hasLessonNum": "138****6110",
+            "havePlayBackNum": "销售呼出",
+            "hasLiveNum": "51",
+            "attendNum": "2100028390"
+          }]
+        }
+      }
+    }
+  }],
+  "posts": [
+  {
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  }],
+  "comments": [
+  {
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }],
+  "profile":
+  {
+    "name": "typicode"
+  }
+}
